@@ -53,6 +53,14 @@ a {
 
 .mulai {
   background-color: #D66E2D;
+  animation-name: animasimulai;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animasimulai {
+  0% {background-color: #D66E2D;}
+  50% {background-color: aqua;}
 }
 
 .btn {
