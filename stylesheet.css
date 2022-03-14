@@ -24,7 +24,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(img/background_header.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -51,17 +51,8 @@ a {
   margin: 10px 0;
 }
 
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
+.mulai {
+  background-color: #D66E2D;
 }
 
 .btn {
@@ -83,16 +74,16 @@ a {
 }
 
 header {
-  height: 65px;
+  height: 75px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: #2A3053;
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
 .logo {
-  width: 124px;
+  width: 85px;
   margin-top: 20px;
 }
 
@@ -132,14 +123,15 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   text-align: center;
 }
 
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: #48466D;
+  font-size: 20px;
 }
 
 .heading h2 {
@@ -167,7 +159,7 @@ header {
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #48466D;
 }
 
 .heading h3 {
@@ -178,6 +170,8 @@ header {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  background-color: #f7f7f7;
+  font-weight: bold;
 }
 
 .message {
@@ -205,4 +199,5 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color: #48466D; 
 }
